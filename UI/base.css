@@ -8,7 +8,7 @@ body {
     margin: 0;
     display: grid;
     height: 100%;
-    background-color: #FFFFEE;
+    background-color: #F5F5F5;
     grid-template-columns: auto 85% auto;
     grid-template-rows: 5px 60px 5px auto;
 }
@@ -108,6 +108,7 @@ p {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .top-containter-background {
@@ -147,4 +148,13 @@ p {
 
 .margin-bottom-10 {
     margin-bottom: 10px;
+}
+
+.otherContainer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    position: relative;
 }
