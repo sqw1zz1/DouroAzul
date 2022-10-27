@@ -20,6 +20,10 @@ body {
     grid-template-rows: 5px 60px 5px auto;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 h1 {
     margin: 0;
 }
@@ -32,19 +36,30 @@ p {
     margin: 0;
 }
 
+a {
+    text-decoration: none
+}
 
 .container-homepage {
     position: relative;
-    display: grid;
 
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 4;
 
-    grid-template-columns: auto 85% auto;
-
     overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.top-containter {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+    display: grid;
+
+    grid-template-columns: auto 85% auto;
 }
 
 .header {
@@ -74,10 +89,6 @@ p {
     cursor: pointer;
     position: relative;
     margin-right: 40px;
-}
-
-.header-container:last-child {
-    margin-right: 0px;
 }
 
 .header-container:hover .header-text {
@@ -126,7 +137,7 @@ p {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .top-containter-info {
@@ -137,6 +148,15 @@ p {
 
     z-index: 500;
     position: relative;
+
+    user-select: none;
+}
+
+.top-container-icon {
+    font-size: 48px;
+    text-align: center;
+    color: #f5f5f5;
+    cursor: pointer;
 }
 
 .top-containter-center {
@@ -159,13 +179,13 @@ p {
     margin-bottom: 10px;
 }
 
-.otherContainer {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
+.margin-right-10 {
+    margin-right: 10px;
+}
 
+.otherContainer {
     position: relative;
+    height: 100%;
 }
 
 .contacts-container {
@@ -188,13 +208,6 @@ p {
     padding: 16px;
 }
 
-.icon-size-15 {
-    min-width: 15px;
-    min-height: 15px;
-    background-repeat: no-repeat;
-    background-size: 15px 15px;
-}
-
 .margin-top-5 {
     margin-top: 5px;
 }
@@ -213,4 +226,19 @@ p {
 
 .colorWhite {
     color: #fff;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.header-container-icon {
+    min-width: 28px;
+    min-height: 28px;
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+
+    transition: all 0.2s;
+
+    cursor: pointer;
 }

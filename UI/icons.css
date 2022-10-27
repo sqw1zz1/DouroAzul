@@ -1,0 +1,5 @@
+.icon-fb{background-image: url('icons/ic_fb.svg');}
+.icon-insta{background-image: url('icons/ic_insta.svg');}
+
+.icon-fb:hover {background-image: url('icons/ic_fb_color.svg');}
+.icon-insta:hover {background-image: url('icons/ic_insta_color.svg');}
