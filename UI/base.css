@@ -183,9 +183,16 @@ a {
     margin-right: 10px;
 }
 
-.otherContainer {
+.presentation-section {
     position: relative;
     height: 100%;
+    display: grid;
+    grid-template-columns: auto 85% auto;
+}
+
+.presentation-container{
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 .contacts-container {
@@ -241,4 +248,11 @@ a {
     transition: all 0.2s;
 
     cursor: pointer;
+}
+
+.dashed-line {
+    height: 20px;
+    width: 100%;
+    border-top: 1px solid var(--oxfordBlue);
+    margin-top: 20px;
 }

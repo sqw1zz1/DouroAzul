@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Porto",
+        "description": "Cidade considerada Património Mundial da Humanidade onde a tradição se manifesta em cada pormenor.",
+        "url_image": ""
+    },
+    {
+        "name": "V.N. Gaia",
+        "description": "Onde as Caves do mundialmente famoso Vinho do Porto são parte integrante da história e da paisagem.",
+        "url_image": ""
+    },
+    {
+        "name": "Bitetos",
+        "description": "Um local para contemplar, usufruir e deixar-se deslumbrar pela sua beleza única.",
+        "url_image": ""
+    },
+    {
+        "name": "Régua",
+        "description": "Nesta cidade pode visitar e conhecer o centro oficial do Douro Vinhateiro.",
+        "url_image": ""
+    },
+    {
+        "name": "Lamego",
+        "description": "Uma cidade que convida aos passeios, à descoberta da gastronomia e dos pormenores da tradição.",
+        "url_image": ""
+    },
+    {
+        "name": "Pinhão",
+        "description": "Uma pequena  vila que prima pela simpatia e pela paisagem pitoresca que a envolve.",
+        "url_image": ""
+    },
+    {
+        "name": "Pocinho",
+        "description": "A paz, o silêncio e a essência do Douro cruzam-se com as suas incomparáveis paisagens.",
+        "url_image": ""
+    },
+    {
+        "name": "V. N. Foz Côa",
+        "description": "Passagem obrigatória nesta localidade para contemplar a figuras rupestres, Património Mundial da Humanidade.",
+        "url_image": ""
+    },
+    {
+        "name": "Fig. Castelo Rodrigo",
+        "description": "Um tour por Figueira de Castelo Rodrigo levá-lo-á até uma verdadeira herança medieval da região duriense.",
+        "url_image": ""
+    },
+    {
+        "name": "Barca d'Alva",
+        "description": "Localidade fronteiriça onde termina o Douro navegável em Portugal",
+        "url_image": ""
+    },
+    {
+        "name": "Salamanca",
+        "description": "Onde os monumentos traduzem a história da cidade Património Mundial da Humanidade",
+        "url_image": ""
+    },
+    {
+        "name": "Guimarães",
+        "description": "A cidade onde nasceu Portugal combina o estatuto de Património Mundial com Capital Europeia da Cultura 2012",
+        "url_image": ""
+    }
+]
