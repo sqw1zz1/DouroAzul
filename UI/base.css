@@ -190,7 +190,7 @@ a {
     grid-template-columns: auto 85% auto;
 }
 
-.presentation-container{
+.presentation-container {
     grid-column-start: 2;
     grid-column-end: 2;
 }
@@ -213,6 +213,8 @@ a {
     border-bottom-right-radius: 10px;
 
     padding: 16px;
+
+    user-select: none;
 }
 
 .margin-top-5 {
@@ -255,4 +257,22 @@ a {
     width: 100%;
     border-top: 1px solid var(--oxfordBlue);
     margin-top: 20px;
+}
+
+.destinations-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    margin-top: 10px;
+}
+
+.item-card {
+    border: 1px solid var(--camel);
+    border-radius: 10px;
+}
+
+.border-top-10 {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }

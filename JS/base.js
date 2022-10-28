@@ -1,6 +1,6 @@
 $(document).ready(function () {
     ShowHeader();
-    GetFleet();
+    GetDestinations();
 });
 
 function ShowHeader() {
@@ -33,18 +33,23 @@ function GetDestinations() {
         success: function (data) {
             for (var i in data) {
                 var destination = data[i];
-                SetItem(destination.name, destination.description, destination.url_image);
+                SetItem(destination.name, destination.description, destination.url_image, "destinations-container");
             }
         }
     });
 }
 
-function SetItem(name, description, urlImage) {
+function SetItem(name, description, urlImage, id) {
     $.ajax({
         url: "/components/Item.html",
         type: "GET",
         success: function (data) {
-            $(".presentation-container").append(data.replace("{param.item}", name))
+            var layout = data
+                .replace("{param.name}", name)
+                .replace("{param.description}", description)
+                .replace("{param.urlImage}", urlImage);
+
+            $("#" + id).append(layout)
         }
     });
 }
