@@ -2,61 +2,61 @@
     {
         "name": "Porto",
         "description": "Cidade considerada Património Mundial da Humanidade onde a tradição se manifesta em cada pormenor.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/porto_destination.jpg"
     },
     {
         "name": "V.N. Gaia",
         "description": "Onde as Caves do mundialmente famoso Vinho do Porto são parte integrante da história e da paisagem.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations\/v_n_gaia_destination.png"
     },
     {
         "name": "Bitetos",
         "description": "Um local para contemplar, usufruir e deixar-se deslumbrar pela sua beleza única.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/bitetos_destination.jpg"
     },
     {
         "name": "Régua",
         "description": "Nesta cidade pode visitar e conhecer o centro oficial do Douro Vinhateiro.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/regua_destination.jpg"
     },
     {
         "name": "Lamego",
         "description": "Uma cidade que convida aos passeios, à descoberta da gastronomia e dos pormenores da tradição.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/lamego_destination.jpg"
     },
     {
         "name": "Pinhão",
         "description": "Uma pequena  vila que prima pela simpatia e pela paisagem pitoresca que a envolve.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/pinhao_destination.jpg"
     },
     {
         "name": "Pocinho",
         "description": "A paz, o silêncio e a essência do Douro cruzam-se com as suas incomparáveis paisagens.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/pocinho_destination.png"
     },
     {
         "name": "V. N. Foz Côa",
         "description": "Passagem obrigatória nesta localidade para contemplar a figuras rupestres, Património Mundial da Humanidade.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/v_n_foz_coa_destination.jpg"
     },
     {
         "name": "Fig. Castelo Rodrigo",
         "description": "Um tour por Figueira de Castelo Rodrigo levá-lo-á até uma verdadeira herança medieval da região duriense.",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/fig_castelo_rodrigo_destination.jpg"
     },
     {
         "name": "Barca d'Alva",
         "description": "Localidade fronteiriça onde termina o Douro navegável em Portugal",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/barca_d_alva_destination.jpg"
     },
     {
         "name": "Salamanca",
         "description": "Onde os monumentos traduzem a história da cidade Património Mundial da Humanidade",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/salamanca_destination.jpg"
     },
     {
         "name": "Guimarães",
         "description": "A cidade onde nasceu Portugal combina o estatuto de Património Mundial com Capital Europeia da Cultura 2012",
-        "url_image": "/UI/images/homepage_douro.jpg"
+        "url_image": "/UI/images/destinations/guimaraes_destination.jpg"
     }
 ]

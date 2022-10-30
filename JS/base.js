@@ -31,7 +31,13 @@ function GetDestinations() {
         url: "/JS/objects/destinations.json",
         type: "GET",
         success: function (data) {
-            for (var i in data) {
+            var sizeData = data.length;
+            if (sizeData > 4) {
+                sizeData = 4;
+            }
+
+            console.log(sizeData);
+            for (let i = 0; i < sizeData; i++) {
                 var destination = data[i];
                 SetItem(destination.name, destination.description, destination.url_image, "destinations-container");
             }

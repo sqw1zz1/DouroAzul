@@ -3,6 +3,7 @@
     --oxfordBlue: #0C233F;
     --gunMetal: #0C2F3F;
     --camel: #af986e;
+    --lightGray: #555252;
 }
 
 html {
@@ -274,9 +275,45 @@ a {
 .item-card {
     border: 1px solid var(--camel);
     border-radius: 10px;
+
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+}
+
+.item-card:hover {
+    border: 1px solid var(--gunMetal);
 }
 
 .border-top-10 {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+.item-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 18px;
+    font-weight: bolder;
+
+    color: var(--gunMetal);
+}
+
+.item-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: var(--lightGray);
+}
+
+.see-more-text {
+    font-size: 16px;
+    color: var(--gunMetal);
+    margin: auto;
+    user-select: none;
+    cursor: pointer;
 }
