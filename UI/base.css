@@ -261,7 +261,6 @@ a {
     height: 20px;
     width: 100%;
     border-top: 1px solid var(--oxfordBlue);
-    margin-top: 20px;
 }
 
 .destinations-container {
@@ -316,4 +315,8 @@ a {
     margin: auto;
     user-select: none;
     cursor: pointer;
+}
+
+.height20 {
+    height: 20px;
 }

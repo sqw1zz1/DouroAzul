@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 function ShowHeader() {
     $.ajax({
-        url: "/components/header.html",
+        url: "../components/header.html",
         type: "GET",
         success: function (data) {
             $("#header").empty().append(data);
@@ -15,7 +15,7 @@ function ShowHeader() {
 
 function GetFleet() {
     $.ajax({
-        url: "/JS/objects/fleet.json",
+        url: "../JS/objects/fleet.json",
         type: "GET",
         success: function (data) {
             for (var i in data) {
@@ -28,7 +28,7 @@ function GetFleet() {
 
 function GetDestinations() {
     $.ajax({
-        url: "/JS/objects/destinations.json",
+        url: "../JS/objects/destinations.json",
         type: "GET",
         success: function (data) {
             GetItem(data, "destinations-container")
@@ -38,7 +38,7 @@ function GetDestinations() {
 
 function GetItem(destinations, id) {
     $.ajax({
-        url: "/components/Item.html",
+        url: "../components/Item.html",
         type: "GET",
         success: function (data) {
             var sizeData = destinations.length;
