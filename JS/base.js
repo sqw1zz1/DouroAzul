@@ -20,7 +20,7 @@ function GetFleet() {
         success: function (data) {
             for (var i in data) {
                 var fleet = data[i];
-                SetItem(fleet.name, fleet.description, fleet.url_image);
+                GetItem(fleet.name, fleet.description, fleet.url_image);
             }
         }
     });
@@ -31,31 +31,28 @@ function GetDestinations() {
         url: "/JS/objects/destinations.json",
         type: "GET",
         success: function (data) {
-            var sizeData = data.length;
-            if (sizeData > 4) {
-                sizeData = 4;
-            }
-
-            console.log(sizeData);
-            for (let i = 0; i < sizeData; i++) {
-                var destination = data[i];
-                SetItem(destination.name, destination.description, destination.url_image, "destinations-container");
-            }
+            GetItem(data, "destinations-container")
         }
     });
 }
 
-function SetItem(name, description, urlImage, id) {
+function GetItem(destinations, id) {
     $.ajax({
         url: "/components/Item.html",
         type: "GET",
         success: function (data) {
-            var layout = data
-                .replace("{param.name}", name)
-                .replace("{param.description}", description)
-                .replace("{param.urlImage}", urlImage);
+            var sizeData = destinations.length;
+            if (sizeData > 4) {
+                sizeData = 4;
+            }
 
-            $("#" + id).append(layout)
+            for (let i = 0; i < sizeData; i++) {
+                $("#" + id).append(
+                    data.replace("{param.name}", destinations[i].name)
+                        .replace("{param.description}", destinations[i].description)
+                        .replace("{param.urlImage}", destinations[i].url_image)
+                );
+            }
         }
     });
 }
