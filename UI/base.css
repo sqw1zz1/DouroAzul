@@ -6,6 +6,18 @@
     --lightGray: #555252;
 }
 
+.backgroundColorWhite {
+    background-color: var(--white);
+}
+
+.backgroundColorGunMetal {
+    background-color: var(--gunMetal);
+}
+
+.backgroundColorLightGray {
+    background-color: var(--lightGray);
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -187,9 +199,9 @@ a {
 
 .presentation-section {
     position: relative;
-    height: 100%;
     display: grid;
     grid-template-columns: auto 85% auto;
+    padding-bottom: 40px;
 }
 
 .presentation-container {
@@ -320,4 +332,36 @@ a {
 
 .height20 {
     height: 20px;
+}
+
+.bottom {
+    background-color: var(--camel);
+    display: grid;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: auto 85% auto;
+    grid-template-rows: auto auto;
+}
+
+.bottom-row {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row: 1;
+    grid-row: 1;
+}
+
+.bottom-column {
+    width: 100%;
+}
+
+.bottom-rights {
+    background-color: var(--camel);
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b7a27b;
+    color: #f5f5f5;
 }

@@ -1,5 +1,6 @@
 $(document).ready(function () {
     ShowHeader();
+    ShowBottom();
     GetDestinations();
 });
 
@@ -9,6 +10,16 @@ function ShowHeader() {
         type: "GET",
         success: function (data) {
             $("#header").empty().append(data);
+        }
+    });
+}
+
+function ShowBottom() {
+    $.ajax({
+        url: "components/bottom.html",
+        type: "GET",
+        success: function (data) {
+            $("#bottom").empty().append(data);
         }
     });
 }
