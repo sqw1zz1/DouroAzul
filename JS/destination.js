@@ -55,7 +55,8 @@ function addDataToView() {
             type: "GET",
             success: function (data) {
                 $("#container").empty().append(
-                    data.replace("{param.title}", destinationNameData.name)
+                    data.replace("{param.image}", destinationNameData.url_image)
+                        .replace("{param.title}", destinationNameData.name)
                         .replace("{param.description}", destinationNameData.description)
                         .replace("{param.longDescription}", destinationDescriptionData.description)
                 )

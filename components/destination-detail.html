@@ -1,3 +1,25 @@
-<p>{param.title}</p>
-<p>{param.description}</p>
-<p>{param.longDescription}</p>
+<div class="top-containter-destination">
+    <div class="top-image-destination" style="background-image: url('{param.image}');"></div>
+    <div class="top-destination-background"></div>
+    <div class="top-containter-info">
+        <div class="top-containter-center">
+            <h1 class="top-containter-info-text">{param.title}</h1>
+        </div>
+    </div>
+
+    <div class="contacts-container">
+        <div class="display-flex">
+            <span class="material-symbols-outlined colorWhite">mail</span>
+            <div class="contact-text">geral@douroazul.pt</div>
+        </div>
+        <div class="display-flex margin-top-5">
+            <span class="material-symbols-outlined colorWhite">call</span>
+            <div class="contact-text">22 340 2500</div>
+        </div>
+    </div>
+</div>
+<div class="destination-description-container">
+    <div class="destination-description">
+        {param.description}<br><br>{param.longDescription}
+    </div>
+</div>
