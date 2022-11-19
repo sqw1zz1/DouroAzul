@@ -503,3 +503,11 @@ a {
 
     grid-template-columns: auto 85% auto;
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-bold {
+    font-weight: bold;
+}
