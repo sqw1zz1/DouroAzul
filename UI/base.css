@@ -201,7 +201,6 @@ a {
     position: relative;
     display: grid;
     grid-template-columns: auto 85% auto;
-    padding-bottom: 40px;
 }
 
 .presentation-container {
@@ -270,10 +269,17 @@ a {
     cursor: pointer;
 }
 
-.dashed-line {
+.solid-line {
     height: 20px;
     width: 100%;
     border-top: 1px solid var(--oxfordBlue);
+}
+
+.dashed-line {
+    margin-top: 20px;
+    height: 20px;
+    width: 100%;
+    border-top: 1px dashed var(--oxfordBlue);
 }
 
 .destinations-container {
@@ -510,4 +516,13 @@ a {
 
 .text-bold {
     font-weight: bold;
+}
+
+.height5 {
+    height: 5px;
+}
+
+.center-container {
+    grid-column-start: 2;
+    grid-column-end: 2;
 }

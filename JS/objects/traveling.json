@@ -5,6 +5,6 @@
         "description": "",
         "price": "2 500€",
         "url_image": "UI/images/traveling/spirit_of_chartwell.jpg",
-        "click": "" 
+        "click": "window.location.href='spirit-of-chartwell.html';" 
     }
 ]

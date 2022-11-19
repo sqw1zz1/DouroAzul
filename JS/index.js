@@ -65,7 +65,7 @@ function getItemTravel(traveling, id) {
                     data.replace("{param.name}", traveling[i].name)
                         .replace("{param.description}", traveling[i].description)
                         .replace("{param.urlImage}", traveling[i].url_image)
-                        .replace("{param.click}", "SetDestination(" + traveling[i].id + ")")
+                        .replace("{param.click}", traveling[i].click)
                         .replace("{param.price}", traveling[i].price)
                 );
             }
