@@ -667,3 +667,63 @@ a {
     gap: 5px;
     margin-top: 10px;
 }
+
+.border-none {
+    border: 0px solid #eee;
+}
+
+.contact-box {
+    border: 1px solid #DEDEDE;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.box-input {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+}
+
+.width10 {
+    width: 10px;
+}
+
+.icon-contacts {
+    color: #0C233F;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.text-input {
+    border: none;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    color: #0C233F;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 0px;
+}
+
+.button {
+    height: 50px;
+    font-size: 16px;
+    background-color: hsl(40, 29%, 90%);
+    border: #CECECE;
+    line-height: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.color-gray {
+    color: var(--gunMetal);
+}
