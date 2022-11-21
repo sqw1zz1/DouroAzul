@@ -4,7 +4,7 @@
         "name": "Spirit of Chartwell 2020",
         "description": "",
         "price": "2 500€",
-        "url_image": "UI/images/traveling/spirit_of_chartwell.jpg",
+        "url_image": "UI/images/traveling/spirit_of_chartwell.webp",
         "click": "window.location.href='spirit-of-chartwell.html';"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Rabelo Cruises",
         "description": "O cruzeiro das pontes dá-lhe a oportunidade de admirar a cidade do Porto e as suas famosas pontes.",
         "price": "14€",
-        "url_image": "UI/images/traveling/rabelo_cruises.jpg",
+        "url_image": "UI/images/traveling/rabelo_cruises.webp",
         "click": "window.location.href='rabelo-cruises.html';"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Winds of Fortune",
         "description": "A forma mais luxuosa e exclusiva de descobrir o Porto e Douro.",
         "price": "1 995€",
-        "url_image": "UI/images/traveling/winds_of_fortune.jpg",
+        "url_image": "UI/images/traveling/winds_of_fortune.webp",
         "click": "window.location.href='winds-of-fortune.html';"
     }
 ]

@@ -1,2 +1,7 @@
-.logo-image{background-image: url("images/logo.png");}
-.top-containter-first{background-image: url("images/homepage_douro.jpg");}
+.logo-image {
+    background-image: url("images/logo.webp");
+}
+
+.top-containter-first {
+    background-image: url("images/homepage_douro.webp");
+}
